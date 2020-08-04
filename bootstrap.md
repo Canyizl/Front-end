@@ -21,13 +21,13 @@
 
 ## 前端网站
 
-https://www.bootcss.com/  							bootstrap
+https://www.bootcss.com/  							Bootstrap
 
-https://www.swiper.com.cn/  	 					swiper
+https://www.swiper.com.cn/  	 					Swiper
 
-https://dev.dcloud.net.cn/mui/ 	 				 mui
+https://dev.dcloud.net.cn/mui/ 	 				 MUI
 
-https://sui.thinkadmin.top/             				sui
+https://sui.thinkadmin.top/             				 SUI
 
 ### 容器
 
@@ -169,3 +169,34 @@ https://sui.thinkadmin.top/             				sui
 
 ​						.col-xs-offset-0{margin-left:0;}  */
 
+### 响应式工具
+
+​			visible-xs
+
+​			hidden-xs
+
+
+
+### 栅格盒模型设计的精妙之处
+
+​		容器上两边具有15px的padding
+
+​		行		两边具有-15px的margin
+
+​		列		两边具有15px的padding
+
+
+
+​	为了维护槽宽的规则，
+
+​					列两边必须得有15px的padding
+
+​	为了能使列嵌套行
+
+​					行两边必须得有-15px的margin
+
+​	为了让容器可以包裹住行
+
+​					容器两边必须得有15px的padding
+
+​	
