@@ -19,16 +19,6 @@
 </html>
 ```
 
-## 前端网站
-
-https://www.bootcss.com/  							Bootstrap
-
-https://www.swiper.com.cn/  	 					Swiper
-
-https://dev.dcloud.net.cn/mui/ 	 				 MUI
-
-https://sui.thinkadmin.top/             				 SUI
-
 ### 容器
 
 ##### 	1.流体容器
@@ -200,3 +190,21 @@ https://sui.thinkadmin.top/             				 SUI
 ​					容器两边必须得有15px的padding
 
 ​	
+
+### Others
+
+​			to C 对客户的项目 ----->  电商
+
+​			to B  对内部的项目
+
+定制化
+
+​			1.改源码
+
+​			2.自写个less文件(eg.改变栅格槽宽)
+
+```less
+			@import"js/bootstrap.less"
+			@grid-gutter-width:100px;
+```
+
