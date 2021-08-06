@@ -1,0 +1,82 @@
+  .canyi-img{
+    opacity:0.8;
+  }
+  .canyi-three{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .canyi-jumbotron{
+    margin-bottom: 10px;
+    background-color: rgb(235, 227, 227,0.2);
+  }
+  .canyi-jumbotron2{
+    margin-bottom: 0px;
+    background-color: rgb(235, 227, 227,0.2);
+  }
+  .canyi-jumbotron img{
+    height:180px;
+    width:auto;
+  }
+  .canyi-thumbnail{
+    border: 2px darkgray solid;
+  }
+  .canyi-thumbnail img{
+    width:300px;
+    border: none;
+    height:210px;
+    margin-top: 20px;
+    opacity: 0.8;
+  }
+  .canyi-hr{
+    margin:50px auto;
+  }
+  .canyi-hr > hr{
+    border:1px solid gray;
+  }
+  .canyi-navbar{
+    margin-left: 20px;
+  }
+  ol.carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    background-color: grey;
+    }
+  ol.carousel-indicators li.active {
+    width: 10px;
+    height: 10px;
+    background-color: deepskyblue;
+    }
+
+    .carousel-control.left {
+      background-image: none;
+      background-repeat: repeat-x;
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    }
+
+    .carousel-control.right {
+      left: auto;
+      right: 0;
+      background-image: none;
+      background-repeat: repeat-x;
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    }
+
+    .canyi-carousel{
+      margin-top: 50px;
+    }
+    .canyi-carousel,.canyi-carousel .item{
+      height:500px;
+      overflow: hidden;
+    }
+
+    .carousel-caption{
+      bottom:21%;
+    }
+    @media only screen and (max-width:768px){
+      .carousel-caption{
+      bottom:5%;
+    }
+    .canyi-carousel,.canyi-carousel .item{
+      height:200px;
+    }
+    }
