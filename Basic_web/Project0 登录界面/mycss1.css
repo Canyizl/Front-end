@@ -1,0 +1,180 @@
+*
+{
+    padding:0;
+}
+
+body{
+    min-height: 100vh;
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background-image: url(img/razer.PNG);
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fliter{
+    width:300px;
+    padding:40px;
+    height:700px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+.fliter::before
+{
+   content:'';
+   position: absolute;
+   top: -2px;
+   left:-2px;
+   right:-2px;
+   bottom:-2px;
+   background:#fff;
+   z-index:-1;
+}
+
+.fliter::after
+{
+   content:'';
+   position: absolute;
+   top: -2px;
+   left:-2px;
+   right:-2px;
+   bottom:-2px;
+   background:#fff;
+   z-index:-2;
+   filter:(blur(40px));
+}
+
+.fliter:before,
+.fliter:after
+{
+    background:linear-gradient(235deg,#89ff00,#060c21,#00bcd4);
+}
+
+.box{
+    width:300px;
+    padding:40px;
+    height:700px;
+    position: absolute;
+    top:50%;    
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: black;
+}
+
+.box h1{
+    text-align: center;
+    color:white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.box input[type="text"],.box input[type="password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin:20px 0px 0px 50px;
+    text-align: center;
+    border:5px solid rgb(53, 53, 184);
+    padding:18px 10px;
+    width:180px;
+    outline:none;
+    color:white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+  width:250px;
+  border-color:green;
+}
+
+.box input[type="submit"],.box input[type="reset"]{
+    display: block;
+    float:left;
+    margin-left: 35px;
+    border:0;
+    background: none;
+    border:5px solid green;
+    padding:10px;
+    width:100px;
+    color:white;
+    outline:none;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor:pointer;
+}
+
+.box input[type="submit"]:hover{
+    background: green;
+}
+
+.box input[type="radio"],.box input[type="checkbox"]{
+    margin:10px auto;
+}
+
+#NavTop{
+    width:300px;
+    height:300px;
+    position:fixed;    
+    left:0px;
+    top:250px;
+}
+
+#bigImg{
+    position:absolute;
+    width:250px;
+    height:250px;
+    top:-240px;
+}
+
+ #NavTop #NavCon ul{
+    list-style: none;
+    overflow: hidden;
+}
+
+#NavTop #NavCon ul li
+{
+    display: block;
+    float:left;
+    width:50px;
+    height:50px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border:2px solid #fff;
+}
+
+#NavTop #NavCon ul li.active
+{
+    border-color:red;
+}
+
+.error
+{
+    width:100px;
+    height:35px;
+    margin-left:-10px;
+    margin-top:-10px;
+    display:block;
+    background:url(img/error.png) no-repeat 5px center;
+    background-size: 35px 35px;
+    padding-left: 30px;
+    color:darkgrey;
+}
+
+#Sex
+{
+    margin-left:110px;
+}
+
+#bk
+{
+    height:18px;
+    width:300px;
+    z-index: 999;
+}

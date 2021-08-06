@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>EDA Login</title>
+    <link rel="stylesheet" type="text/css" href="mycss1.css"> 
+    <script src="myjs.js" ></script>
+</head>
+<body>
+    <div id="NavTop">
+            <div id="NavCon">
+                <img src="img/razerlog.jpg" id="bigImg">
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="img/razerlog.jpg" width="46" class="smallImg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/razer3.jpg" width="46" class="smallImg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/razer1.jpg" width="46" class="smallImg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/razer2.jpg" width="46" class="smallImg">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+    <div class="fliter"></div>
+    <form class="box"  method="post">
+        <h1>EDA Login</h1>      
+        <table>
+             <tr></tr>
+                <td><input type="text" id="Name" name="" placeholder="Username"></td>
+                <td><span id="error1"><font color="grey"></font></span></td>
+            <tr></tr>
+                <td><input type="password" id="Pass1"name="" placeholder="password"></td>
+                <td><span id="error2"></span></td>
+            <tr></tr>
+                <td><input type="password" id="Pass2"name="" placeholder="password Again"></td>
+                <td><span id="error3"></span></td>
+            <tr></tr>
+                <td>        
+                <div id="Sex">
+                <label><input type="radio"  name="sex"  value=""/><font color="white" >♂&nbsp;&nbsp;</font></label>
+                <label><input type="radio"  name="sex"  value=""/><font color="white" >♀&nbsp;&nbsp;</font></label>
+                </div>
+                </td>
+            <tr></tr>
+                <td>
+                <div id="bk">
+                    <span><font color="grey">Love:</font>：&nbsp;</span>
+                    <label><input type="checkbox" name="habit" value=""/><font color="grey">写代码&nbsp;&nbsp;</font></label>
+                    <label><input type="checkbox" name="habit" value=""/><font color="grey">跑步&nbsp;&nbsp;</font></label>
+                    <label><input type="checkbox" name="habit" value=""/><font color="grey">睡觉&nbsp;&nbsp;</font></label>
+                 </div>
+                </td>
+                <td><span id="error4"></span></td>
+            <tr></tr>
+                <td><input type="text" id="Tele" name="" placeholder="telephone"></td>
+                <td><span id="error5"></span></td>
+            <tr></tr>
+                <td><input type="text" id="Mail" name="" placeholder="E-mail"></td>
+                <td><span id="error6"></span></td>
+        </table>
+        <br>
+        <input type="submit" name="" value="Login"><input type="reset" name="" value="Reset">
+    </form>  
+</body>
+</html>
